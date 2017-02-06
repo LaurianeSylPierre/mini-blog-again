@@ -2,5 +2,5 @@ $ git status
     [...]
     # Untracked files:
     [...]
-    #       controleur/connexionBD.php
+    #       Controleur/connexionDB.php
     #       .ftpconfig
