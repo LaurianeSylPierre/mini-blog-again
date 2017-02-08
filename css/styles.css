@@ -1,0 +1,45 @@
+#fenetremodale{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#fenetremodale:target{
+    display: block;
+}
+
+.modalearticle{
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#fenetremodale a{
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin : 3%;
+}
+
+.articles_recent, .articles_random{
+    margin-top: 3%;
+}
